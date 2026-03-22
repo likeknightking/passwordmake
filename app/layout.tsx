@@ -15,13 +15,11 @@ export const metadata: Metadata = {
     description: 'Generate strong passwords instantly. 100% private, runs in your browser.',
     type: 'website',
     url: 'https://www.passwordmake.com',
-    images: ['/og-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Password Generator — Free & Secure',
     description: 'Create strong, random passwords. No data sent to any server.',
-    images: ['/og-image.png'],
   },
   robots: { index: true, follow: true },
 }
