@@ -1,6 +1,6 @@
 export default function robots() {
   return {
     rules: { userAgent: '*', allow: '/' },
-    sitemap: 'https://www.passwordmake.com/sitemap.xml',
+    sitemap: 'https://passwordmake.com/sitemap.xml',
   }
 }

@@ -13,7 +13,7 @@
 - No registration required
 
 ## URL
-https://www.passwordmake.com
+https://passwordmake.com
 
 ## Usage
 Generate secure passwords for any account. Customize length and character types, check the strength meter, and copy to clipboard. Supports both random character passwords and memorable word passphrases. Colors indicate character type: blue = uppercase, green = numbers, orange = symbols.
