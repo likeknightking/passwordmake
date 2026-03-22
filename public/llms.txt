@@ -1,19 +1,29 @@
 # Password Generator
 > Free online tool to generate strong, random passwords and passphrases.
 
+## What it does
+Generates cryptographically secure passwords using the Web Crypto API (crypto.getRandomValues). Supports both random character passwords and memorable word-based passphrases using the EFF word list.
+
 ## Features
-- Cryptographically secure generation using Web Crypto API (crypto.getRandomValues)
 - Customizable length (8-128 characters)
 - Toggle: uppercase, lowercase, numbers, symbols
 - Exclude ambiguous characters (0, O, l, 1, I)
-- Password strength meter with entropy calculation and crack time estimate
-- Passphrase mode using EFF word list (correct-horse-battery-staple style)
+- Password strength meter with entropy and crack time estimate
+- Passphrase mode (correct-horse-battery-staple style)
 - Bulk generation (5/10/20 passwords at once)
-- 100% client-side — no data sent to any server
-- No registration required
+- 100% client-side — nothing sent to any server
+
+## Who it's for
+- Anyone creating new accounts
+- IT administrators generating credentials
+- Security-conscious users replacing weak passwords
+- Developers needing test credentials
 
 ## URL
 https://passwordmake.com
 
-## Usage
-Generate secure passwords for any account. Customize length and character types, check the strength meter, and copy to clipboard. Supports both random character passwords and memorable word passphrases. Colors indicate character type: blue = uppercase, green = numbers, orange = symbols.
+## How to use
+Adjust the length slider and toggle character types on/off. The password generates instantly. Click copy to save to clipboard. Switch to Passphrase mode for memorable multi-word passwords. Use Bulk mode to generate many at once.
+
+## Pricing
+Completely free. No account needed. No limits.
