@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     description: 'Create strong, random passwords. No data sent to any server.',
   },
   robots: { index: true, follow: true },
+  other: { 'google-adsense-account': 'ca-pub-7584346505499429' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
