@@ -6,7 +6,7 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.passwordmake.com'),
+  metadataBase: new URL('https://passwordmake.com'),
   title: 'Password Generator — Create Strong, Secure Passwords Instantly',
   description:
     'Free online password generator. Create strong, random passwords and passphrases with customizable length and character types. 100% client-side — nothing is sent to any server.',
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'Password Generator — Secure & Free',
     description: 'Generate strong passwords instantly. 100% private, runs in your browser.',
     type: 'website',
-    url: 'https://www.passwordmake.com',
+    url: 'https://passwordmake.com',
   },
   twitter: {
     card: 'summary_large_image',
