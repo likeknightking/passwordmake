@@ -94,6 +94,9 @@ export default function Home() {
           {/* Ad — below generator */}
           <AdSlot slot="0987654321" format="rectangle" className="mx-auto mt-6" />
 
+          {/* Ad — between tool and SEO content */}
+          <AdSlot slot="5566778899" format="horizontal" />
+
           {/* SEO Content */}
           <article className="mt-16 prose prose-invert prose-slate max-w-none">
             <h2 className="text-2xl font-bold text-white mt-12 mb-4">Why You Need a Strong Password</h2>
