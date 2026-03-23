@@ -1,4 +1,5 @@
 import PasswordGenerator from '@/components/PasswordGenerator'
+import PasswordNav from '@/components/PasswordNav'
 import AdSlot from '@/components/AdSlot'
 
 const jsonLd = {
@@ -55,6 +56,30 @@ const faqJsonLd = {
         text: 'Entropy measures the unpredictability of a password in bits. Higher entropy means more possible combinations and a harder brute-force attack. 60+ bits is considered strong for most use cases.',
       },
     },
+    {
+      '@type': 'Question',
+      name: 'Do I need a different password for every account?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Absolutely. Reusing passwords is one of the most dangerous security practices. If one service suffers a data breach, attackers will try that password on every other major site — a technique called credential stuffing. A unique random password for each account ensures that a single breach cannot cascade.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the Web Crypto API?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The Web Crypto API is a browser-native interface that provides access to cryptographic primitives, including a cryptographically secure random number generator (CSPRNG). It draws entropy from the operating system kernel, producing randomness of the same quality used for TLS certificates and encryption keys.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Should I use a password manager?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. A password manager lets you generate and store a unique, strong password for every account without memorizing any of them. You only need to remember one master password or passphrase. Reputable password managers encrypt your vault locally, so even the service provider cannot read your passwords.',
+      },
+    },
   ],
 }
 
@@ -80,6 +105,8 @@ export default function Home() {
 
         {/* Tool */}
         <main className="max-w-2xl mx-auto px-4 py-8">
+          <PasswordNav />
+
           <div className="mb-8 text-center">
             <h2 className="text-3xl font-bold text-white mb-2">
               Generate Strong Passwords

@@ -6,5 +6,23 @@ export default function sitemap() {
       changeFrequency: 'monthly' as const,
       priority: 1,
     },
+    {
+      url: 'https://passwordmake.com/passphrase-generator',
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    },
+    {
+      url: 'https://passwordmake.com/pin-generator',
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    },
+    {
+      url: 'https://passwordmake.com/password-strength-checker',
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    },
   ]
 }
