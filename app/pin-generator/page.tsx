@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
 import PinGenerator from '@/components/PinGenerator'
 import PasswordNav from '@/components/PasswordNav'
@@ -175,6 +176,7 @@ export default function PinGeneratorPage() {
             ))}
           </article>
         </main>
+        <Footer />
 
         {/* Footer */}
         <footer className="border-t border-slate-800 mt-16 py-8 text-center">

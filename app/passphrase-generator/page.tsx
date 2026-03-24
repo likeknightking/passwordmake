@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import type { Metadata } from 'next'
 import PasswordGenerator from '@/components/PasswordGenerator'
 import PasswordNav from '@/components/PasswordNav'
@@ -175,6 +176,7 @@ export default function PassphraseGeneratorPage() {
             ))}
           </article>
         </main>
+        <Footer />
 
         {/* Footer */}
         <footer className="border-t border-slate-800 mt-16 py-8 text-center">
