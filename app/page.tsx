@@ -1,6 +1,7 @@
 import PasswordGenerator from '@/components/PasswordGenerator'
 import PasswordNav from '@/components/PasswordNav'
 import AdSlot from '@/components/AdSlot'
+import Footer from '@/components/Footer'
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -116,6 +117,10 @@ export default function Home() {
             </p>
           </div>
 
+          <p className="text-slate-400 leading-relaxed mb-8 text-center max-w-xl mx-auto">
+            A strong, unique password is your first line of defense against account breaches and identity theft. This tool uses your browser&apos;s cryptographic random number generator to create passwords that are virtually impossible to crack. Customize length, character types, and complexity to meet any security requirement.
+          </p>
+
           <PasswordGenerator />
 
           {/* Ad — below generator */}
@@ -174,12 +179,7 @@ export default function Home() {
           </article>
         </main>
 
-        {/* Footer */}
-        <footer className="border-t border-slate-800 mt-16 py-8 text-center">
-          <p className="text-slate-500 text-sm">
-            Password Generator — Free, secure, and 100% client-side.
-          </p>
-        </footer>
+        <Footer />
       </div>
     </>
   )
