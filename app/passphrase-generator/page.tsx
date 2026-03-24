@@ -125,10 +125,10 @@ export default function PassphraseGeneratorPage() {
           <PasswordGenerator />
 
           {/* Ad below generator */}
-          <AdSlot slot="0987654321" format="rectangle" className="mx-auto mt-6" />
+          <AdSlot slot="1383762911" format="rectangle" className="mx-auto mt-6" />
 
           {/* Ad between tool and SEO */}
-          <AdSlot slot="5566778899" format="horizontal" />
+          <AdSlot slot="5794048117" format="horizontal" />
 
           {/* SEO Content */}
           <article className="mt-16 prose prose-invert prose-slate max-w-none">
@@ -166,7 +166,7 @@ export default function PassphraseGeneratorPage() {
 
             <h2 className="text-2xl font-bold text-white mt-12 mb-4">Frequently Asked Questions</h2>
 
-            <AdSlot slot="1122334455" format="article" className="my-4" />
+            <AdSlot slot="6363926151" format="article" className="my-4" />
 
             {faqJsonLd.mainEntity.map((faq) => (
               <div key={faq.name} className="mt-6">
